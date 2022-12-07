@@ -23,7 +23,6 @@ ___
 * Scss, Sass, Less
 * Figma
 * Git
-* Git
 
 ####Code Example
 ___
