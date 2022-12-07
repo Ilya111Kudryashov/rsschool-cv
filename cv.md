@@ -1,10 +1,10 @@
 ### [rsschool-cv]()
 
 
-## Ilya Kudryashov
+## Ilya Kudryashov ##
 
 
-#### Contacts
+#### Contacts ####
 
 * __Location__: Russia, Nizniy Novgorod
 * __Phone__: 8(904)-913-55-34
@@ -12,13 +12,13 @@
 * __GitHub__: [Ilya111Kudryashov](https://github.com/Ilya111Kudryashov)
 * __Discord__: Bulbasaur#2860
 
-#### About Me
+#### About Me ####
 
 
 I wanted to be a front-end developer.
 My discipline and perseverance will hopefully lead me to success, and the Rolling stones school will help in this.
 
-#### Skills
+#### Skills ####
 
 
 * HTML5, CSS3 
@@ -28,7 +28,7 @@ My discipline and perseverance will hopefully lead me to success, and the Rollin
 * Figma
 * Git
 
-#### Code Example
+#### Code Example ####
 
 Example: Write a function that converts a string into an array of words
 ```
@@ -40,7 +40,7 @@ let arr = stringToarray(str);
 document.write(arr);
 //['every', 'hunter', 'wants', 'to', 'know']
 ```
-#### Education
+#### Education ####
 
 * University:
     * Nizhny Novgorod Radio Engineering college
@@ -50,7 +50,7 @@ n.a. R.E. Alekseev
     * Implementation of the Internet of Things in the management of engineering systems
     * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
     
-#### Languages:
+#### Languages: ####
 
 * Russian - Native
 * A2
