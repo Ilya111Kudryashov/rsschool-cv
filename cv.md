@@ -1,11 +1,11 @@
 ### [rsschool-cv]()
-___
+
 
 ## Ilya Kudryashov
-___
+
 
 #### Contacts
-___
+
 * __Location__: Russia, Nizniy Novgorod
 * __Phone__: 8(904)-913-55-34
 * __Email__: Zikbor@yandex.ru
@@ -14,14 +14,13 @@ ___
 
 #### About Me
 
-___
 
 I wanted to be a front-end developer.
 My discipline and perseverance will hopefully lead me to success, and the Rolling stones school will help in this.
 
 #### Skills
 
-___
+
 * HTML5, CSS3 
 * Javascript
 * Gulp
@@ -30,7 +29,7 @@ ___
 * Git
 
 #### Code Example
-___
+
 Example: Write a function that converts a string into an array of words
 ```
 let str= "every hunter wants to know";
@@ -42,7 +41,7 @@ document.write(arr);
 //['every', 'hunter', 'wants', 'to', 'know']
 ```
 #### Education
-___
+
 * University:
     * Nizhny Novgorod Radio Engineering college
     * Nizhny Novgorod State Technical University
@@ -52,6 +51,6 @@ n.a. R.E. Alekseev
     * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
     
 #### Languages:
-___
+
 * Russian - Native
 * A2
