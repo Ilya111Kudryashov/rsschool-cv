@@ -21,7 +21,7 @@ My discipline and perseverance will hopefully lead me to success, and the Rollin
 #### Skills ####
 
 
-* HTML5, CSS3 
+* HTML5, CSS3
 * Javascript
 * Gulp
 * Scss, Sass, Less
