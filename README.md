@@ -1,1 +1,1 @@
-https://Ilya111Kudryashov.github.io/rsschool-cv/
+CV#3. [HTML](https://Ilya111Kudryashov.github.io/rsschool-cv/)
