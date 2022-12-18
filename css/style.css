@@ -104,6 +104,10 @@ body{
 .education__text{
     max-width: 350px;
 }
+.code pre{
+    background-color: #8f8f8f;
+}
+
 .language{
     margin-bottom: 20px;
 }
@@ -137,3 +141,184 @@ h3{
     border: 1px solid #829985;
     border-radius: 50%;
   } */
+
+  .menu-btn{
+    display: none;
+  }
+  /* start medi */
+  @media (max-width:980px){
+    .education__text{
+        font-size: 16px;
+    }
+    .education__content img{
+        width: 100px;
+        height: 100px;
+    }
+    pre{
+        text-align: center;
+    }
+  }
+  @media (max-width:848px){
+    .education__content{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+  @media (max-width:640px){
+    .menu-btn{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        order: 1;
+        position: relative;
+        z-index: 50;
+    }
+    .git__logo{
+        position: relative;
+        z-index: 50;
+    }
+    .btn__line{
+        position: absolute;
+        left: 0;
+        background-color: #fff;
+        width: 100%;
+        height: 2px;
+        transition: .3s ease;
+    }
+    .btn__line:nth-child(1){
+        top: 0px;
+    }
+    .btn__line:nth-child(2){
+        top: 20px;
+    }
+    .btn__line:nth-child(3){
+        top: 20px;
+    }
+    .btn__line:nth-child(4){
+        top: 40px;
+    }
+    .menu--activ .btn__line:nth-child(1){
+        transform: scaleX(0);
+    }
+    .menu--activ .btn__line:nth-child(2){
+        transform:rotate(-45deg);
+    }
+    .menu--activ .btn__line:nth-child(3){
+        transform:rotate(45deg);
+    }
+    .menu--activ .btn__line:nth-child(4){
+        transform: scaleX(0);
+    }
+    .menu__list{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color:#040404;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transform: translateY(-100%);
+        transition: .5s ease;
+    }
+    .menu--activ .menu__list{
+        transform: translateY(0);
+    }
+    .menu__item{
+        padding: 30px 0;
+    }
+    .menu__link{
+        font-size: 26px;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .title__name{
+        font-size: 48px;
+    }
+    .title__text p,
+    .title__text span{
+        font-size: 24px;
+    }
+  }
+  @media (max-width:560px){
+    .title__inner{
+        flex-wrap: wrap;
+    }
+    .title__name{
+        font-size: 32px;
+        padding: 5px 0;
+    }
+    .title__img{
+        order: 1;
+    }
+    .about__img img{
+        width: 50px;
+        height: 50px;
+    }
+    .about__text{
+        font-size: 16px;
+        order: 1;
+    }
+    .about__content{
+        flex-wrap: wrap;
+    }
+    .section__title{
+        margin: 20px 0 15px;
+    }
+    .about__img{
+        margin-top: 5px;
+    }
+    .contacts__img img{
+        width: 50px;
+        height: 50px;
+    }
+    .contacts__block--text{
+        font-size: 16px;
+    }
+    .contacts__img{
+        margin-left: 20px;
+    }
+    pre{
+        font-size: 16px;
+    }
+    .language p{
+        font-size: 16px;
+        text-align: center;
+    }
+  }
+  @media(max-width:480px){
+    pre{
+        font-size: 12px;
+    }
+}
+  @media(max-width:400px){
+    .menu__link{
+        font-size: 18px;
+    }
+    .contacts__block--text{
+        width: 76%;
+    }
+    .skills__item {
+        font-size: 16px;
+    }
+    h3{
+        padding-bottom: 10px;
+    }
+    .education__content img{
+        width: 50px;
+        height: 50px;
+    }
+    pre{
+        font-size: 10px;
+    }
+    .footer__link{
+        flex-direction: column;
+    }
+  }
